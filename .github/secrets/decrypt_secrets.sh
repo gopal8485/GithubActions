@@ -1,12 +1,12 @@
 #!/bin/sh
 set -eo pipefail
 
-gpg --quiet --batch --yes --decrypt --passphrase="$IOS_KEYS" --output ./.github/secrets/ct.mobileprovision.mobileprovision ./.github/secrets/ct.mobileprovision.gpg
+gpg --quiet --batch --yes --decrypt --passphrase="$IOS_KEYS" --output ./.github/secrets/ct_prod_provision.mobileprovision.mobileprovision ./.github/secrets/ct_prod_provision.mobileprovision.gpg
 gpg --quiet --batch --yes --decrypt --passphrase="$IOS_KEYS" --output ./.github/secrets/Certificates.p12 ./.github/secrets/Certificates.p12.gpg
 
 mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
 
-cp ./.github/secrets/ct.mobileprovision.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles/ct.mobileprovision.mobileprovision
+cp ./.github/secrets/ct_prod_provision.mobileprovision.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles/ct_prod_provision.mobileprovision.mobileprovision
 
 
 security create-keychain -p "" build.keychain
