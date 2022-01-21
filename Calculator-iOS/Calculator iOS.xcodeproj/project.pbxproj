@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		479973F1279ADEEB00362CC7 /* exportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479973F0279ADEEB00362CC7 /* exportOptions.plist */; };
 		6F04CE38237B538F00B0CB26 /* Calculator in Frameworks */ = {isa = PBXBuildFile; productRef = 6F04CE37237B538F00B0CB26 /* Calculator */; };
 		6F5E81E92376017000472777 /* Calculator_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E81E82376017000472777 /* Calculator_iOSUITests.swift */; };
 		6F8C0D822376024B00064590 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8C0D792376024B00064590 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		479973F0279ADEEB00362CC7 /* exportOptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = exportOptions.plist; sourceTree = "<group>"; };
 		6F5E81C32376016D00472777 /* Calculator iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculator iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F5E81D92376017000472777 /* Calculator iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculator iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F5E81E42376017000472777 /* Calculator iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculator iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,7 +52,6 @@
 		6F8C0D812376024B00064590 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6F8C0D8A2376025700064590 /* Calculator_iOSTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator_iOSTests.swift; sourceTree = "<group>"; };
 		6F8C0D8B2376025700064590 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6FEFB15B23C680B0006652EE /* exportOptions.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = exportOptions.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,13 +120,13 @@
 		6F8C0D782376024B00064590 /* Calculator iOS */ = {
 			isa = PBXGroup;
 			children = (
+				479973F0279ADEEB00362CC7 /* exportOptions.plist */,
 				6F8C0D792376024B00064590 /* ViewController.swift */,
 				6F8C0D7A2376024B00064590 /* Assets.xcassets */,
 				6F8C0D7B2376024B00064590 /* LaunchScreen.storyboard */,
 				6F8C0D7D2376024B00064590 /* Main.storyboard */,
 				6F8C0D7F2376024B00064590 /* AppDelegate.swift */,
 				6F8C0D802376024B00064590 /* Info.plist */,
-				6FEFB15B23C680B0006652EE /* exportOptions.plist */,
 				6F8C0D812376024B00064590 /* SceneDelegate.swift */,
 			);
 			path = "Calculator iOS";
@@ -252,6 +253,7 @@
 				6F8C0D852376024B00064590 /* Main.storyboard in Resources */,
 				6F8C0D832376024B00064590 /* Assets.xcassets in Resources */,
 				6F8C0D842376024B00064590 /* LaunchScreen.storyboard in Resources */,
+				479973F1279ADEEB00362CC7 /* exportOptions.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
